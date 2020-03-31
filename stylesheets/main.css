@@ -8,6 +8,7 @@ body {
 
 .first-nav {
     background-color: #272A31;
+    padding-right: 15%;
 }
 
 .p-border {
@@ -74,10 +75,14 @@ header li a {
     text-decoration: underline;
 }
 
+.mfs-box {
+  width: 30rem;  
+}
+
 .sem-date {
-    width: 19em;
-    left: 50rem;
-    bottom: 2.5rem;
+    width: 19rem;
+    left: 10rem;
+    top: 6.2rem;
 }
 
 .kenya {
@@ -99,7 +104,12 @@ header li a {
 /*footer*/
 .p-footer {
 font-size: 1.2rem;
-width: 60em;
+/*width: 40%;*/
+}
+
+footer {
+    height: 15rem;
+    background-color: #272A31;
 }
 
 
