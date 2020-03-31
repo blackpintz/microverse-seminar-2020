@@ -12,7 +12,7 @@
     </head>
     <body>
         <header>
-            <ul class="nav first-nav justify-content-end">
+            <ul class="nav d-none d-md-flex first-nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link text-light px-2" href="#"><i class="fa fa-facebook-f"></i></a>
                 </li>
@@ -29,45 +29,46 @@
                     <a class="nav-link text-light px-2" href="#">Spanish</a>
                 </li>
             </ul>
-            <nav class="navbar justify-content-around">
+            <nav class="navbar d-none d-md-flex justify-content-around">
                 <a class="navbar-brand d-flex text-dark" href="#">
                     <img src="https://image.shutterstock.com/image-photo/image-260nw-776634040.jpg" width="60" height="60" alt="">
                     <p class="align-self-center">Microverse Freshman<br>Seminar 2020</p>
                 </a>
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">About</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Program</a>
+                        <a class="nav-link" href="#">Ticket</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Join</a>
+                        <a class="nav-link" href="#">Program</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Sponsor</a>
+                        <a class="nav-link" href="#">Sponsor</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">News</a>
+                        <a class="nav-link" href="#">News</a>
                     </li>
                     <li class="nav-item">
-                       <p class="p-border"><a class="nav-link text-danger" href="#">MFS Campaign</a></p>
+                       <p class="p-border"><a class="nav-link big-title" href="#">MFS Campaign</a></p>
                     </li>
                 </ul>
             </nav>
         </header>
         <main class="container">
-                <div class="mb-5 d-flex justify-content-end p-home">
+                <div class="mb-5 d-none d-md-flex justify-content-end p-home">
                   <p><i class="fa fa-home"></i> > About > Tickets</p>
                 </div>
+                <i class="fa fa-bars fa-4x d-md-none ml-4 mb-5"></i>
                 <h2 class="font-weight-bold text-center mb-3 mx-auto">Select Tickets</h2>
                 <div class="red-line mx-auto"></div>
-                <div class="mx-auto mt-3 p-4 border w-50 rounded-pill">
-                     <p class="text-center p-content"><span class="text-danger pr-2"><i class="fa fa-diamond pr-1" aria-hidden="true"></i>Step 1</span>Please select the day when you want to join Microverse Freshman Seminar</p>
+                <div class="mx-auto mt-3 p-4 border w-md-50 rounded-pill">
+                     <p class="text-md-center p-content"><span class="big-title pr-2"><i class="fa fa-diamond pr-1" aria-hidden="true"></i>Step 1</span>Please select the day when you want to join Microverse Freshman Seminar</p>
                 </div>
                 <div class="my-5 ticket-box p-border px-4 mx-auto">
-                    <div class="row justify-content-center">
-                        <div class="col-2 border-right"><p class="text-center mb-0 py-2">Ticket</p></div>
+                    <div class="row d-none d-md-flex justify-content-center">
+                        <div class="col-2  border-right"><p class="text-center mb-0 py-2">Ticket</p></div>
                         <div class="col-2 border-right"><p class="text-center mb-0 py-2">1-Day Ticket</p></div>
                         <div class="col-4 border-right"><p class="text-center mb-0 py-2">2-Day Ticket</p></div>
                         <div class="col-4"><p class="text-center mb-0 py-2">MFS Affiliate/Partners</p></div>
@@ -87,15 +88,45 @@
                         <div class="col-2 border-right border-top"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>50,000</p></div>
                         <div class="col-4 border-right border-top"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>0</p></div>
                     </div>
+                    <div class="row d-md-none">
+                        <div class="col-12 border-bottom"><p class="text-center mb-0 py-2">1-Day Ticket</p></div>
+                        <div class="col-4 border-right"><p class="text-center mb-0 py-2">Date</p></div>
+                        <div class="col-8"><p class="text-center mb-0 py-2">15, April(Wed)</p></div>
+                        <div class="col-4 border-right border-top"><p class="text-center mb-0 py-2">Students</p></div>
+                        <div class="col-8 border-top"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>30,000</p></div>
+                        <div class="col-4 border-right border-top"><p class="text-center mb-0 py-2">Normal</p></div>
+                        <div class="col-8 border-top"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>30,000</p></div>
+                    </div>
+                    <div class="row d-md-none border-top mt-3">
+                        <div class="col-12 border-bottom"><p class="text-center mb-0 py-2">2-Day Ticket</p></div>
+                        <div class="col-4 border-right"><p class="text-center mb-0 py-2">Date</p></div>
+                        <div class="col-4 border-right"><p class="text-center mb-0 py-2">15, April(Wed)</p></div>
+                        <div class="col-4 border-right border-top"><p class="text-center mb-0 py-2">15-16,April(Wed-Thur)</p></div>
+                        <div class="col-4 border-right border-top"><p class="text-center mb-0 py-2">Students</p></div>
+                        <div class="col-4 border-top border-right"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>30,000</p></div>
+                        <div class="col-4 border-top"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>50,000</p></div>
+                        <div class="col-4 border-right border-top"><p class="text-center mb-0 py-2">Normal</p></div>
+                        <div class="col-4 border-top border-right"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>70,000</p></div>
+                        <div class="col-4 border-top"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>100,000</p></div>
+                    </div>
+                    <div class="row border-top d-md-none">
+                        <div class="col-12 border-bottom"><p class="text-center mb-0 py-2">MFS Affiliat/Partners</p></div>
+                        <div class="col-4 border-right"><p class="text-center mb-0 py-2">Date</p></div>
+                        <div class="col-8"><p class="text-center mb-0 py-2">15-16,April(Wed-Thur)</p></div>
+                        <div class="col-4 border-right border-top"><p class="text-center mb-0 py-2">Students</p></div>
+                        <div class="col-8 border-top"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>0</p></div>
+                        <div class="col-4 border-right border-top"><p class="text-center mb-0 py-2">Normal</p></div>
+                        <div class="col-8 border-top"><p class="text-center text-danger font-weight-bold mb-0 py-2"><span class="line">W</span>0</p></div>
+                    </div>
                 </div>
                 <i class="fa fa-diamond fa-3x d-flex justify-content-center" aria-hidden="true"></i>
                  <h2 class="font-weight-bold text-center my-3 mx-auto">Select Your Lunch</h2>
                  <div class="red-line mx-auto"></div>
-                  <div class="mx-auto mt-3 p-4 border w-50 rounded-pill">
+                  <div class="mx-auto mt-3 p-4 border w-md-50 rounded-pill">
                      <p class="text-center p-content"><span class="text-danger pr-2"><i class="fa fa-diamond pr-1" aria-hidden="true"></i>Step 1</span>Please select your lunch.
                      There will be no further costs for lunch.</p>
                 </div>
-                <div class="row row-cols-4 border mt-4 w-75 mx-auto">
+                <div class="row row-cols-2 row-cols-md-4 border mt-4 w-75 mx-auto">
                     <div class="col p-0">
                         <div class="card border-0">
                             <div class="card-header py-3"></div>
@@ -129,7 +160,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row row-cols-4 border mt-4 w-75 mx-auto">
+                <div class="row row-cols-2 row-cols-md-4 border mt-4 w-75 mx-auto">
                     <div class="col p-0">
                         <div class="card border-0">
                             <div class="card-header py-3"></div>
