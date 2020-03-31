@@ -51,6 +51,10 @@ Start by:
 
 Give a ⭐️ if you like this project!
 
+## Credits
+
+https://creativecommons.org/licenses/by-nc/4.0/
+
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
