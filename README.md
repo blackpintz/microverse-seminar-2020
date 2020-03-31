@@ -1,4 +1,3 @@
-Newsweek clone
 What the project is about
 
 An online website conference built with HTML and CSS. The design idea for the website is borrowed from Cindy Shin in behance(https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
