@@ -12,7 +12,7 @@
     </head>
     <body>
         <header>
-            <ul class="nav first-nav justify-content-end">
+            <ul class="nav d-none d-md-flex first-nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link text-light px-2" href="#"><i class="fa fa-facebook-f"></i></a>
                 </li>
@@ -29,7 +29,7 @@
                     <a class="nav-link text-light px-2" href="#">Spanish</a>
                 </li>
             </ul>
-            <nav class="navbar justify-content-around">
+            <nav class="navbar d-none d-md-flex justify-content-around">
                 <a class="navbar-brand d-flex text-dark" href="#">
                     <img src="https://image.shutterstock.com/image-photo/image-260nw-776634040.jpg" width="60" height="60" alt="">
                     <p class="align-self-center">Microverse Freshman<br>Seminar 2020</p>
@@ -56,12 +56,13 @@
                 </ul>
             </nav>
         </header>
-        <main class="container">
-            <div class="mb-5 d-flex justify-content-end">
-                <p><i class="fa fa-home"></i> > About > Tickets</p>
-            </div>
+        <main>
             <div class="jumbotron jumbotron-fluid intro-about">
-                <h2 class="font-weight-bold big-title text-center display-2">MICROVERSE FRESHMAN<br> GLOBAL SEMINAR 2020</h2>
+              <div class="container">
+                <p class="p-home d-none d-md-block text-right"><i class="fa fa-home"></i> > About > Tickets</p>
+                <i class="fa fa-bars fa-4x d-md-none ml-4 mb-5"></i>
+                <p class="h2 font-weight-bold text-center d-md-none big-title">Welcome to the Freshman Seminar Series!</p>
+                <h2 class="font-weight-bold big-title text-center display-4 display-md-2">MICROVERSE FRESHMAN<br> GLOBAL SEMINAR 2020</h2>
                 <div class="red-line m-auto"></div>
                 <p class="text-center w-75 p-content mx-auto bg-light py-2 mt-3">
                     The series presents a unique opportunity for students to learn in and from a university-wide community interested in promoting
@@ -74,6 +75,7 @@
                     Interested participants are required to complete a one-time registration for the series with a separate RSVP for each session.<br>
                     <span class="font-weight-bold gmail">mfs2020@gmail.com ></span>
                 </p>
+              </div>    
             </div>
             <div class="mx-auto">
                 <h4 class="text-center font-weight-bold">Microverse Freshman Seminar 2020 AI and Data</h4>
@@ -89,32 +91,52 @@
                     <p class="align-self-center h3 font-weight-bold">Microverse Freshman<br>Seminar 2020</p>
                     <p class="border-bottom border-top sem-date position-absolute font-weight-bold">15th - 25th April 2020 | Barcelona, Spain</p>
             </div>
-            
             <div class="border-top">
                 <h4 class="mt-5 text-center font-weight-bold">Microverse Freshman Seminar 2020</h4>
                 <div class="red-line mx-auto"></div>
                 <p class="p-content py-4 text-center">Take a look at the last two Microverse Seminars which took place in Kenya and China</p>
-                <div class="d-flex justify-content-center mt-4">
-                    <div class="d-flex flex-column justify-content-center kenya">
+                <div class="d-md-flex justify-content-center mt-4">
+                    <div class="d-flex flex-column justify-content-center mx-auto mx-md-0 mb-2 mb-md-0 kenya">
                         <h3 class="font-weight-bold text-light text-center">2018</h3>
                        <h4 class="text-light text-center font-weight-bold">MF Seminar in Nairobi</h4> 
                     </div>
-                    <div class="d-flex flex-column justify-content-center china ml-2">
+                    <div class="d-flex flex-column justify-content-center mx-auto mx-md-0 china ml-md-2">
                         <h3 class="font-weight-bold text-light text-center">2017</h3>
                         <h4 class="text-light text-center font-weight-bold">MF Seminar in China</h4>
                     </div>
                 </div>
             </div>
+            <div class="partner pt-3">
+                <h4 class="text-center text-light font-weight-bold mb-3">Partner</h4>
+                <div class="red-line mx-auto"></div>
+                <div class="row">
+                    <div class="col-4 d-flex justify-content-center">
+                        <img width="100" height="60" src="images/airbnb.png" alt="">
+                    </div>
+                    <div class="col-4 d-flex justify-content-center">
+                        <img width="60" height="60" src="images/google.png" alt="">
+                    </div>
+                    <div class="col-4 d-flex justify-content-center">
+                        <img width="60"  height="60" src="images/cnn.png" alt="">
+                    </div>
+                    <div class="col-6 d-flex justify-content-center">
+                        <img width="100" height="60" src="images/naver.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img width="120" height="60" src="images/moz.PNG">
+                    </div>
+                </div>
+            </div>
         </main>
         <footer class="pl-3">
-            <div class="footer-width d-flex align-items-center h-100 mx-auto w-75">
+            <div class="d-flex align-items-center h-100 mx-auto w-75">
                <div class="d-flex">
                 <img class="align-self-center" src="https://image.shutterstock.com/image-photo/image-260nw-776634040.jpg" width="60" height="60" alt="">
                 <h3 class="font-weight-bold align-self-center text-light">Microverse Spain</h3>
                </div>
                <div class="align-self-center ml-4">
-                 <p class="mb-0 font-weight-bold text-light">2020 Microverse Spain. Some Rights Reserved</p>
-                 <p class="text-light p-footer">The copyright notice, although not mandatory, is still a must-have for any website. It is a notice that helps preventing copyright infringement. In case any of the website elements is copied, <br>the person having stolen from you cannot claim ignorance</p>
+                 <p class="mb-0 font-weight-bold text-md-light">2020 Microverse Spain. Some Rights Reserved</p>
+                 <p class="text-md-light p-footer">The copyright notice, although not mandatory, is still a must-have for any website. It is a notice that helps preventing copyright infringement. In case any of the website elements is copied, <br>the person having stolen from you cannot claim ignorance</p>
               </div>
             </div>
         </footer>
