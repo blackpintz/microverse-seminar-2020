@@ -73,6 +73,7 @@ header li a {
 .partner {
      background-color: #272A31;
      height: 20rem;
+     margin-bottom: 4rem;
 }
 
 .gmail {
@@ -80,7 +81,7 @@ header li a {
 }
 
 .mfs-box {
-  width: 30rem;  
+  width: 30rem;
 }
 
 .sem-date {
@@ -124,5 +125,21 @@ footer {
     background-color: #272A31;
 }
 
+/*Media queries*/
+
+@media (max-width: 767px) {
+    .program {
+        height: 60rem;
+    }
+    
+    .program img {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    .program p {
+        font-size: 1.5rem;
+    }
+} 
 
 
