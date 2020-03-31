@@ -45,6 +45,10 @@ header li a {
     font-size: 1.4rem;
 }
 
+.p-home {
+    padding-right: 10%;
+}
+
 .program {
     background-color: #120f16;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%239C92AC' fill-opacity='0.21'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
@@ -99,6 +103,14 @@ header li a {
     background-size: cover;
     width: 30rem;
     height: 30rem;
+}
+
+.ticket-box {
+    width: 70%;
+}
+
+.line {
+    text-decoration: line-through
 }
 
 /*footer*/
