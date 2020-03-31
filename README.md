@@ -14,7 +14,7 @@ html, css
 Bootstrap
 
 ## Live Demo
-[Live Demo Link](https://rawcdn.githack.com/blackpintz/newsweek-clone/1cab0c2314ed68657da922705f57b753ce97b4a8/index.html)
+[Live Demo Link](https://rawcdn.githack.com/blackpintz/microverse-seminar-2020/090184d91ad2a0263ae311aad0eab41119760de2/index.html)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
